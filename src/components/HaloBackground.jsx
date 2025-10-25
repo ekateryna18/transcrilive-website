@@ -14,11 +14,11 @@ const HaloBackground = () => {
         minHeight: 100.00,
         minWidth: 100.00,
         baseColor: 0x689,
-        backgroundColor: 0x131a43,
+        backgroundColor: 0x1C1C27,
         amplitudeFactor: 0.00,
         xOffset: 0.2,
         yOffset: 0.05,
-        size: 1.20,
+        size: 1,
       }));
     }
     return () => {
