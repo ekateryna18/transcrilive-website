@@ -14,7 +14,7 @@ const HaloBackground = () => {
         minHeight: 100.00,
         minWidth: 100.00,
         baseColor: 0x689,
-        backgroundColor: 0x1C1C27,
+        backgroundColor: 0x0B1120,
         amplitudeFactor: 0.00,
         xOffset: 0.2,
         yOffset: 0.05,

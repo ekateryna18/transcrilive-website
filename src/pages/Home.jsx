@@ -2,6 +2,9 @@ import HaloBackground from "../components/HaloBackground.jsx";
 import Features from "./Features.jsx";
 import CardType1 from "../components/CardType1.jsx";
 import { EducationIcon } from "../components/Icons.jsx";
+import UseCases from "./UseCases.jsx";
+import Advantages from "./Advantages.jsx";
+import ContactPage from "./ContactPage.jsx";
 function Home() {
 
   return (
@@ -77,6 +80,9 @@ function Home() {
         </div>
       </div>
       <Features />
+      <UseCases />
+      <Advantages />
+      <ContactPage />
     </div>
   );
 }
