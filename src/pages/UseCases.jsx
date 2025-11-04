@@ -190,11 +190,8 @@ const UseCaseItem = ({ title, description, icon, isLeftSide }) => {
 const UseCases = () => {
   return (
     <div className="bg-gradient-to-b from-black to-darkbg min-h-screen px-6 py-16 w-full mx-auto">
-      <h1 className="text-white text-4xl sm:text-5xl font-semibold mb-16">
-        Use{" "}
-        <span className="text-lightblue">
-          Cases
-        </span>
+      <h1 className="heading-style pb-12">
+        Use Cases
       </h1>
 
       <div className="grid gap-y-12">

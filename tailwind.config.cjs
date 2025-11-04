@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: [
     "./index.html",
@@ -17,5 +19,13 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities }) {
+      addUtilities({
+        '.heading-style': {
+          '@apply text-7xl font-poppins font-medium bg-gradient-to-r from-lightblue to-mediumblue bg-clip-text text-transparent': {},
+        },
+      })
+    }),
+  ],
 }

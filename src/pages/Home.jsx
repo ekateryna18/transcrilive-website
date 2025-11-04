@@ -5,8 +5,8 @@ import { EducationIcon } from "../components/Icons.jsx";
 import UseCases from "./UseCases.jsx";
 import Advantages from "./Advantages.jsx";
 import ContactPage from "./ContactPage.jsx";
-function Home() {
 
+function Home() {
   return (
     <div>
       <div
@@ -14,18 +14,22 @@ function Home() {
         className="relative w-full h-screen overflow-hidden"
       >
         <HaloBackground />
-        <div className="container-text absolute inset-0 w-1/2 flex flex-col items-start justify-center pl-20">
-          <h1 className="text-7xl font-poppins font-bold bg-gradient-to-r from-lightblue  to-mediumblue bg-clip-text text-transparent pb-3">TranscriLive</h1>
-          <p className="text-4xl max-w-xl font-semibold pb-3 bg-gradient-to-r from-lightblue  to-mediumblue bg-clip-text text-transparent ">
+        <div className="absolute inset-0 bg-black bg-opacity-70 md:hidden z-10" />
+        <div className="container-text z-20 absolute inset-0 w-full md:w-1/2 flex flex-col items-start justify-center px-6 md:pl-20">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-poppins font-bold bg-gradient-to-r from-lightblue to-mediumblue bg-clip-text text-transparent pb-3">
+            TranscriLive
+          </h1>
+          <p className="text-2xl sm:text-3xl md:text-4xl max-w-full md:max-w-xl font-semibold pb-3 bg-gradient-to-r from-lightblue to-mediumblue bg-clip-text text-transparent">
             Making voice accessible to everyone
           </p>
-          <p className="text-xl text-white">
+          <p className="text-base sm:text-lg md:text-xl text-white max-w-full md:max-w-xl">
             Revolutionize your conferences and meetings with our advanced Live
             transcription technology.
           </p>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-[30vh] bg-gradient-to-b from-transparent to-black z-5 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-full h-[20vh] sm:h-[25vh] md:h-[30vh] bg-gradient-to-b from-transparent to-black z-5 pointer-events-none"></div>
       </div>
+
       {/* Vision page */}
       <div
         id="vision-page"
@@ -33,9 +37,7 @@ function Home() {
       >
         <div className="container flex flex-row justify-center">
           <div className="content w-1/2 flex flex-col">
-            <h1 className=" text-7xl font-poppins font-semi-bold pb-12 bg-gradient-to-r from-lightblue  to-mediumblue bg-clip-text text-transparent">
-              Our vision
-            </h1>
+            <h1 className="pb-12 heading-style">Our vision</h1>
             {/* Left text */}
             <div className="container-text text-l flex flex-col items-start space-y-8 pr-12">
               <p>
@@ -67,14 +69,26 @@ function Home() {
           {/* Right cards */}
           <div className="container-cards w-1/2 flex justify-end">
             <div className="grid grid-cols-2 gap-10 text-base">
-              <CardType1 icon={EducationIcon} text="In classrooms, hearing-impaired students follow every word
-                    on the screen, fully participating in discussions." />
-              <CardType1 icon={EducationIcon} text="In classrooms, hearing-impaired students follow every word
-                    on the screen, fully participating in discussions." />
-              <CardType1 icon={EducationIcon} text="In classrooms, hearing-impaired students follow every word
-                    on the screen, fully participating in discussions." />
-              <CardType1 icon={EducationIcon} text="In classrooms, hearing-impaired students follow every word
-                    on the screen, fully participating in discussions." />
+              <CardType1
+                icon={EducationIcon}
+                text="In classrooms, hearing-impaired students follow every word
+                    on the screen, fully participating in discussions."
+              />
+              <CardType1
+                icon={EducationIcon}
+                text="In classrooms, hearing-impaired students follow every word
+                    on the screen, fully participating in discussions."
+              />
+              <CardType1
+                icon={EducationIcon}
+                text="In classrooms, hearing-impaired students follow every word
+                    on the screen, fully participating in discussions."
+              />
+              <CardType1
+                icon={EducationIcon}
+                text="In classrooms, hearing-impaired students follow every word
+                    on the screen, fully participating in discussions."
+              />
             </div>
           </div>
         </div>

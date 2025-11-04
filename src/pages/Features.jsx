@@ -121,7 +121,7 @@ function Features() {
       className="bg-gradient-to-b from-darkbg via-darkbg to-black min-h-screen w-full flex justify-center items-start py-20 px-6"
     >
       <div className="max-w-7xl w-full flex flex-col">
-        <h1 className="text-4xl sm:text-6xl font-poppins font-semibold bg-gradient-to-r from-lightblue to-mediumblue bg-clip-text text-transparent pb-12">
+        <h1 className="sm:text-6xl heading-style pb-12">
           Advanced Features
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10">
